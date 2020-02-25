@@ -1,9 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+#about 
+{
+  text-align: justify;
+  text-justify: inter-word;
+}
+#test{
+  text-align: justify;
+  text-justify: inter-word;
+}
 /* line 1, Dr. Rohit Madhurkar website by www.vaibhavsoni.tech/_extends.scss */
 .btn_1, .btn_2, .regervation_part .btn_2:hover {
-  background-image: -webkit-linear-gradient(to right, #37c2ad, #0070fa, #37c2ad);
-  background-image: -o-linear-gradient(to right, #37c2ad, #0070fa, #37c2ad);
-  background-image: linear-gradient(to right, #37c2ad, #0070fa, #37c2ad);
+  background-image: -webkit-linear-gradient(to right, #008000, #003d80, #008000);
+  background-image: -o-linear-gradient(to right, #008000, #003d80, #008000);
+  background-image: linear-gradient(to right, #008000, #003d80, #008000);
 }
 
 /* line 6, Dr. Rohit Madhurkar website by www.vaibhavsoni.tech/_extends.scss */
@@ -2845,6 +2854,8 @@ ul {
 .about_us .about_us_text ul li span {
   margin-right: 10px;
   color: #3fbb96;
+  text-align: justify;
+  justify-content: inter-word;
   position: absolute;
   top: 16px;
   left: 0;
@@ -2865,7 +2876,9 @@ ul {
 /* line 126, Dr. Rohit Madhurkar website by www.vaibhavsoni.tech/_about_us.scss */
 .banner_item {
   display: flex;
-  justify-content: space-between;
+  text-align: justify;
+  justify-content: inter-word;
+  
 }
 
 /* line 130, Dr. Rohit Madhurkar website by www.vaibhavsoni.tech/_about_us.scss */
