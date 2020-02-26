@@ -8,6 +8,7 @@
   text-align: justify;
   text-justify: inter-word;
 }
+
 /* line 1, Dr. Rohit Madhurkar website by www.vaibhavsoni.tech/_extends.scss */
 .btn_1, .btn_2, .regervation_part .btn_2:hover {
   background-image: -webkit-linear-gradient(to right, #008000, #003d80, #008000);
