@@ -1,4 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,500i,700&display=swap");
+
+
+/*Experiment*/
+
+
+
+
+/*Experiment end*/
+
+
+
+
+
+
+
+
+
+
 #about 
 {
   text-align: justify;
@@ -2262,10 +2280,15 @@ ul {
   z-index: 999;
 }
 
+
 /* line 11, Dr. Rohit Madhurkar website by www.vaibhavsoni.tech/_menu.scss */
 .main_menu .navbar-brand {
-  padding: 0rem !important;
+  padding: 1rem !important;
+ righ
+ 
 }
+
+
 
 @media (max-width: 576px) {
   /* line 11, Dr. Rohit Madhurkar website by www.vaibhavsoni.tech/_menu.scss */
@@ -2273,6 +2296,8 @@ ul {
     max-width: 120px;
   }
 }
+
+
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 11, Dr. Rohit Madhurkar website by www.vaibhavsoni.tech/_menu.scss */
@@ -2334,11 +2359,12 @@ ul {
 /* line 61, Dr. Rohit Madhurkar website by www.vaibhavsoni.tech/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link {
   color: #242429;
-  font-size: 14px;
+  font-size: 20px;
   padding: 38px 23px;
   font-family: "Roboto", sans-serif;
   line-height: 13px;
   text-transform: capitalize;
+  
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -2350,7 +2376,7 @@ ul {
 
 /* line 72, Dr. Rohit Madhurkar website by www.vaibhavsoni.tech/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link:hover {
-  color: #3fbb96;
+  color: #4f8ac6;
 }
 
 /* line 81, Dr. Rohit Madhurkar website by www.vaibhavsoni.tech/_menu.scss */
@@ -2406,6 +2432,7 @@ ul {
   .navbar-light .navbar-toggler {
     border-color: transparent;
     padding: 0;
+    
   }
   /* line 140, Dr. Rohit Madhurkar website by www.vaibhavsoni.tech/_menu.scss */
   .navbar-collapse {
@@ -2416,6 +2443,7 @@ ul {
     width: 100%;
     background-color: #fff;
     text-align: center !important;
+    
     box-shadow: 0px 11px 9px -5px rgba(0, 0, 0, 0.2);
   }
   /* line 151, Dr. Rohit Madhurkar website by www.vaibhavsoni.tech/_menu.scss */
@@ -2433,6 +2461,7 @@ ul {
   /* line 163, Dr. Rohit Madhurkar website by www.vaibhavsoni.tech/_menu.scss */
   .navbar-nav {
     align-items: start !important;
+  
   }
   /* line 168, Dr. Rohit Madhurkar website by www.vaibhavsoni.tech/_menu.scss */
   .dropdown .dropdown-menu {
@@ -2505,11 +2534,12 @@ ul {
 /**************** banner part css start ****************/
 /* line 2, Dr. Rohit Madhurkar website by www.vaibhavsoni.tech/_banner.scss */
 .banner_part {
-  height: 935px;
+  padding-top: 100px;
+  height: auto;
   position: relative;
   align-items: center;
   overflow: hidden;
-  background-image: url(../img/banner_bg.png);
+  background-image: url(../img/banner_bg.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -2520,14 +2550,14 @@ ul {
   .banner_part {
     background-image: none;
     background-color: #f7f7f7;
-    height: 650px;
+    height: auto;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 2, Dr. Rohit Madhurkar website by www.vaibhavsoni.tech/_banner.scss */
   .banner_part {
-    height: 650px;
+    height: auto;
   }
 }
 
@@ -2535,7 +2565,7 @@ ul {
 .banner_part .banner_text {
   display: table;
   width: 100% ;
-  height: 935px;
+  height: auto;
 }
 
 /* line 26, Dr. Rohit Madhurkar website by www.vaibhavsoni.tech/_banner.scss */
@@ -3413,6 +3443,19 @@ ul {
     margin-bottom: 20px;
   }
 }
+
+
+/*Start deleting from here*/
+.navbar-brand {
+background-color: rgb(255, 255, 255);
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-15deg);
+  -ms-transform: skew(-15deg);
+  -o-transform: skew(-15deg);
+  border-right:2px solid #1db9a0;
+  
+}
+/*End deleting from here*/
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 83, Dr. Rohit Madhurkar website by www.vaibhavsoni.tech/_review.scss */
